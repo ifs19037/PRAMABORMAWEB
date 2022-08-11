@@ -1,0 +1,3 @@
+return view('papan_peringkat')->with('hasil_kuis', $hasil_kuis)->with('divisi', $divisi)->with('kuis', $kuis)->with('lokasi', $lokasi)
+        ->with('cari_nama_divisi', $cari_nama_divisi)->with('cari_id_kuis', $cari_id_kuis)->with('cari_nama_lokasi', $cari_nama_lokasi)
+        ->with('kuis_cari', $kuis_cari);
